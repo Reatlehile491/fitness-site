@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+/* Header background for all pages */
+header {
+  background color: blue;
+  padding: 20px;
+  color: blue;
+}
+
+header nav {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+/* Home Page Header */
+body.home header {
+
+}
+
+/* Workouts Page Header */
+body.workouts header {
+
+}
+
+/* Diet Page Header */
+body.diet header {
+}
+
+/* Blog Page Header */
+body.blog header {
+
+}
+
+/* Contact Page Header */
+body.contact header {
+}
+body.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.contact-box {
+  background: rgba(0, 0, 0, 0.6); /
+  padding: 30px;
+  border-radius: 10px;
+  color: #grey;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Form inputs styled to sit on top */
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.9); /
+  color: #000;
+}
+
+.contact-box button {
+  background: #00b894;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background: #019875;
+}
+
+
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  background-color: #00b894;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #019875;
+}
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li.active a {
+  color: #00b894;
+  border-bottom: 2px solid #00b894;
+}
+
+nav a:hover {
+  color: #019875; 
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+/* Home Page Background */
+body.home {
+}
+
+/* Workouts Page Background */
+body.workouts {
+}
+
+/* Diet Page Background */
+body.diet {
+}
+
+/* Blog Page Background */
+body.blog {
+
+}
+
+/* Contact Page Background */
+body.contact {
+}
+
+/* Overlay effect for readability */
+.content, .hero, form {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.85); 
+  color: #fff;                     
+  text-align: center;               
+  padding: 15px 10px;              
+  font-size: 14px;                 
+  margin-top: 40px;              
+}
+
+footer a {
+  color: #00b894;                  
+  text-decoration: none;           
+  margin: 0 8px;                  
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #019875;                   
+  transition: 0.3s ease;        
+}
+
+footer p {
+  margin: 5px 0;                   
+}
+
+
+
