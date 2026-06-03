@@ -43,6 +43,64 @@ body.contact {
   align-items: center;
   min-height: 100vh;
 }
+/* Background for form pages */
+body.contact {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Center form in page */
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form box styling */
+form {
+  background: rgba(0,0,0,0.7); 
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Inputs and textarea */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.9);
+  color: #000;
+}
+
+/* Button styling */
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #00b894;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #019875;
+}
+
 
 
 .contact-box {
@@ -196,6 +254,7 @@ body.contact {
   padding: 20px;
   border-radius: 8px;
 }
+
 
 footer {
   background: rgba(0, 0, 0, 0.85); 
